@@ -11,10 +11,11 @@ body {
 }
 
 .sidebar {
-  width: 200px;
+  width: 300px;
   background-color: #333366;
   padding: 20px;
   color: white;
+  
 }
 
 .sidebar a {
@@ -22,12 +23,12 @@ body {
   color: white;
   text-decoration: none;
   margin-bottom: 10px;
-  font-size: 30 px; /* make links clearly readable */
-
+  font-size: 30px; /* make links clearly readable */
 }
 
 .sidebar h2 {
   margin-bottom: 20px;
+  color: rgb(255, 45, 45);
   font-size: 40px; /* make PQC Seminar slightly bigger */
 
 }
@@ -37,6 +38,7 @@ body {
   flex: 1;
   background-color: white;
   overflow-y: auto;
+  font-size: 25px; /* make PQC Seminar slightly bigger */
 }
 
 table {
