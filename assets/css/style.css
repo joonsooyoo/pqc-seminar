@@ -3,11 +3,13 @@ body {
   background-color: #f5f5f5;
   margin: 0;
   padding: 0;
+  
 }
 
 .container {
   display: flex;
   height: 100vh;
+  
 }
 
 .sidebar {
@@ -41,9 +43,37 @@ body {
   font-size: 25px; /* make PQC Seminar slightly bigger */
 }
 
+.content h1 {
+  /* padding: 20px; */
+  margin-top: 40px; /* increase or decrease as needed */
+  flex: 1;
+  background-color: white;
+  overflow-y: auto;
+  font-size: 55px; /* make PQC Seminar slightly bigger */
+}
+
+.content h2 {
+  /* padding: 20px; */
+  margin-top: 40px; /* increase or decrease as needed */
+  flex: 1;
+  background-color: white;
+  overflow-y: auto;
+  font-size: 25px; /* make PQC Seminar slightly bigger */
+}
+
+.content ul {
+  /* padding: 20px; */
+  flex: 1;
+  background-color: white;
+  overflow-y: auto;
+  font-size: 20px; /* make PQC Seminar slightly bigger */
+}
+
+
 table {
   width: 100%;
   border-collapse: collapse;
+  font-size: 20px; /* make PQC Seminar slightly bigger */
 }
 
 table, th, td {
@@ -53,4 +83,13 @@ table, th, td {
 
 th {
   background-color: #ddd;
+}
+
+.members-list {
+  list-style-position: inside;
+}
+
+.members-list li {
+  font-size: 30px;
+  margin-bottom: 10px;
 }
