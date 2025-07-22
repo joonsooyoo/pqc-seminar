@@ -22,10 +22,14 @@ body {
   color: white;
   text-decoration: none;
   margin-bottom: 10px;
+  font-size: 16px; /* make links clearly readable */
+
 }
 
 .sidebar h2 {
   margin-bottom: 20px;
+  font-size: 22px; /* make PQC Seminar slightly bigger */
+
 }
 
 .content {
